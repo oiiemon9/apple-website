@@ -5,7 +5,7 @@
 header {
   /* background-color: cadetblue; */
   min-height: 600px;
-  background-image: url(../image/G03.jpg);
+  background-image: url(../image/iphone.jpg);
   background-repeat: no-repeat;
   background-position: right 300px top;
   display: flex;
@@ -35,17 +35,17 @@ header {
   font-size: 40px;
 }
 .lineupitem1 {
-  background-image: url(/image/pexels-iriser-1647976.jpg);
+  background-image: url(../image/pexels-iriser-1647976.jpg);
 
   background-size: cover;
 }
 .lineupitem2 {
-  background-image: url(/image/pexels-marleneleppanen-2066896.jpg);
+  background-image: url(../image/pexels-marleneleppanen-2066896.jpg);
 
   background-size: cover;
 }
 .lineupitem3 {
-  background-image: url(/image/don-kaveen-R8Pgjgqw8aw-unsplash.jpg);
+  background-image: url(../image/don-kaveen-R8Pgjgqw8aw-unsplash.jpg);
 
   background-size: cover;
 }
