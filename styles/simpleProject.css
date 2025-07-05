@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  /* background-color: cadetblue; */
+  min-height: 600px;
+  background-image: url(/image/G03.jpg);
+  background-repeat: no-repeat;
+  background-position: right 300px top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerdiv {
+  min-width: 500px;
+}
+.headerdiv > h1 {
+  font-size: 75px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.headerLearnbtn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.buybtn {
+  margin-left: 10px;
+  background-color: rgba(0, 80, 228, 0.87);
+  border: none;
+  color: white;
+}
+.Producttitle {
+  font-size: 40px;
+}
+.lineupitem1 {
+  background-image: url(/image/pexels-iriser-1647976.jpg);
+
+  background-size: cover;
+}
+.lineupitem2 {
+  background-image: url(/image/pexels-marleneleppanen-2066896.jpg);
+
+  background-size: cover;
+}
+.lineupitem3 {
+  background-image: url(/image/don-kaveen-R8Pgjgqw8aw-unsplash.jpg);
+
+  background-size: cover;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
